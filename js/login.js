@@ -10,7 +10,7 @@ document.getElementById('btn-submit').addEventListener('click', function () {
     //  step- 3: get password 
     // 3,a) set id on the html element 
     // 3.b) get the element 
-    // 3.c) get the value from the element 
+    // 3.c) get the .value from the element 
 
     const passwordField = document.getElementById('user-pass');
     const password = passwordField.value;
