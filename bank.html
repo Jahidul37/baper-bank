@@ -11,27 +11,31 @@
 <body>
     <h1 class=" text-5xl text-center mt-5">Welcome to <span class="font-bold text-purple-500">money bank...</span></h1>
 
+
     <section class="mt-12">
         <div class="grid grid-cols-3 gap-4 w-9/12 mx-auto text-white">
             <div class="bg-green-400 p-8 rounded-xl">
                 <h4 class="text-2xl">Deposit</h4>
-
                 <!-- id name hocce deposit-total  -->
                 <h2 class="text-5xl">$<span id="deposit-total">00</span></h2>
             </div>
 
             <div class="bg-yellow-400 p-8 rounded-xl">
                 <h4 class="text-2xl">Withdraw</h4>
-                <h2 class="text-5xl">$00</h2>
+                <!-- ai id name hocce withdraw-total  -->
+                <h2 class="text-5xl">$<span id="withdraw-total">00</span></h2>
             </div>
+
 
             <div class="bg-blue-400 p-8 rounded-xl">
                 <h4 class="text-2xl">Balance</h4>
+                <!-- id name hocce balance-total  -->
                 <h2 class="text-5xl">$<span id="balance-total">1200</span></h2>
             </div>
         </div>
-
     </section>
+
+
 
     <!-- deposit and withdraw -->
     <section class="mt-12">
@@ -40,6 +44,7 @@
                 <h4 class="text-2xl text-white">Please Deposit</h4>
                 <input id="deposit-field" class=" w-9/12 block mb-2 px-3" type="text" name=""
                     placeholder="$ Amount you want to deposit">
+                <!-- id name hocce btn-deposit -->
                 <button id="btn-deposit"
                     class="bg-amber-400 hover:bg-sky-700 px-8 py-2 text-white font-medium rounded-lg">Deposit</button>
             </div>
@@ -47,15 +52,22 @@
                 <h4 class="text-2xl text-white">Please withdraw</h4>
                 <input id="withdraw-field" class=" w-9/12 block mb-2 px-3" type="text" name=""
                     placeholder="$ Amount you want to withdraw">
+                <!--id name hocce btn-withdraw -->
                 <button id="btn-withdraw"
                     class="bg-amber-400 hover:bg-sky-700 px-8 py-2 text-white font-medium rounded-lg">Withdraw</button>
             </div>
 
-
         </div>
     </section>
 
+
+    <!-- javascript er sathe link korar jonno script  -->
+    <!-- connect to the deposit.js file -->
     <script src="js/deposit.js"></script>
+    <!-- connet to the withdraw.js file -->
+    <script src="js/withdraw.js"></script>
+
+
 </body>
 
 </html>
